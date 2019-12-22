@@ -1,0 +1,20 @@
+.Text-Field {
+    width: '80%' !important;
+}
+
+.Text-Field input{
+    color: black !important;
+    width: 70%;
+}
+
+.Label {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+
+.Value {
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+}

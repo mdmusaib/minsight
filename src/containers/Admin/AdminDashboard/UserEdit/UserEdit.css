@@ -1,0 +1,13 @@
+.UserEdit-Form-Body {
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.UserEdit-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

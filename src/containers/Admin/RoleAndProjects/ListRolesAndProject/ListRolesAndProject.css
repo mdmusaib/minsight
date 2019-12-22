@@ -1,0 +1,11 @@
+.Table-Action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px 68px
+}
+
+.Table-Action button {
+    margin: 10px;
+    background-color: rgb(14, 86, 230);
+}

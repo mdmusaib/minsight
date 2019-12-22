@@ -1,0 +1,16 @@
+.Add-Button {
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Select-Roles {
+    padding: .375rem .75rem; 
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin-left: .5rem;
+    overflow: hidden;
+}

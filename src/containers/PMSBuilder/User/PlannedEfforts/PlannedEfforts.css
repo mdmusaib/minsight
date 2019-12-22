@@ -1,0 +1,39 @@
+.modal-container {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 50vh;
+}
+
+.button-container {
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.table-container {
+	width: auto;
+
+	margin-top: 10vh;
+}
+
+.update-btn {
+	padding: 18px;
+
+	display: flex;
+
+	justify-content: flex-end;
+}
+
+.modal-heading {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.form-layout {
+	padding: 14px;
+    margin: 0;
+}
+
+.label {
+	font-weight: 500;
+}

@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.disabled {
+  pointer-events: none;
+}
+
+ul.pagination {
+  list-style: 'none';
+}
+
+ul.pagination li {
+  display: 'inline';
+  padding: '5px';
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(103deg, #2467e2, #2b3bc4), linear-gradient(103deg, #2467e2, #2b3bc4);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(103deg, #2467e2, #2b3bc4), linear-gradient(103deg, #2467e2, #2b3bc4);
+}
+
+.loader {
+  background: linear-gradient(#000000, #3d3d3d);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: none;
+  opacity: 0.9;
+}
+
+.loader svg {
+  width: 200px;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+}
+
+body.loadingIndicator {
+  height: 100%;
+  overflow: hidden;
+}
+
+.loadingIndicator .loader {
+  display: block;
+}
+
+@-moz-keyframes draw {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke-dashoffset: 300;
+  }
+}
+
+@-webkit-keyframes draw {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke-dashoffset: 300;
+  }
+}
+
+@keyframes draw {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke-dashoffset: 300;
+  }
+}
+
+@-moz-keyframes letterflash {
+  0% {
+    fill: #42c0ff;
+  }
+
+  100% {
+    fill: #ffa100;
+  }
+}
+
+@-webkit-keyframes letterflash {
+  0% {
+    fill: #42c0ff;
+  }
+
+  100% {
+    fill: #ffa100;
+  }
+}
+
+@keyframes letterflash {
+  0% {
+    fill: #42c0ff;
+  }
+
+  100% {
+    fill: #ffa100;
+  }
+}
+
+@-moz-keyframes spinnerflash {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke: #ffa100;
+  }
+}
+
+@-webkit-keyframes spinnerflash {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke: #ffa100;
+  }
+}
+
+@keyframes spinnerflash {
+  0% {
+    stroke: #42c0ff;
+  }
+
+  100% {
+    stroke: #ffa100;
+  }
+}
+
+.circle {
+  stroke-dasharray: 150;
+  -moz-animation: draw 2s linear infinite;
+  -webkit-animation: draw 2s linear infinite;
+  animation: draw 2s linear infinite;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  -moz-animation: letterflash 2s ease-in-out infinite;
+  -webkit-animation: letterflash 2s ease-in-out infinite;
+  animation: letterflash 2s ease-in-out infinite;
+}
+
+.six {
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.five {
+  -moz-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.four {
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.three {
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.two {
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.one {
+  -moz-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}

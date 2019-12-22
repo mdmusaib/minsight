@@ -1,0 +1,20 @@
+.Heading {
+    box-shadow: 0px 0px 6px 3px rgba(33, 29, 218, 0.6) !important;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 5vh 0;
+    padding: 3px;
+    border-radius: 5px;
+    width: 95%;
+}
+.Heading p {
+    margin: 5px 23px;
+}
+
+.Filter-Form {
+    margin: 8vh 0;
+    width: 95%;
+    padding: 14px;
+    box-shadow: 0px 0px 6px 3px rgba(33, 29, 218, 0.6) !important;
+}
